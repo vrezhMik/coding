@@ -1,12 +1,10 @@
 var p = document.querySelectorAll('p')
 console.log(p)
-var myClass = document.querySelectorAll('.myClass')
-console.log(myClass)
-var yngerJan = document.querySelector("#yngerJan")
-console.log(yngerJan)
+var a = document.querySelectorAll('.a')
+console.log(a)
+var id = document.querySelector("#myP")
+console.log(id)
 
-var button = document.querySelector('button')
-button.addEventListener('click',(e)=>{
-    yngerJan.innerHTML= "Xaxaxa"
-    console.log(e.clientX, e.clientY)
+id.addEventListener('click',()=>{
+    console.log("Clicked")
 })
